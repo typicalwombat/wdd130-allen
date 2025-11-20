@@ -1,0 +1,92 @@
+/* === BASIC RESET === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* === COLORS & VARIABLES === */
+:root {
+    /*All of these colors are temporary and subject to change*/
+    --bg-color: #f0d6a6; /*#121212;*/
+    --card-bg: #edbe84;/*#1e1e1e;*/
+    --text-color: #f5f5f5;
+    --accent-color: #4f8dff;
+    --muted-color: #aaa;
+}
+
+/* === GENERAL PAGE STYLE === */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* === HEADER / NAVIGATION === */
+header {
+  background-color: var(--card-bg);
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  margin-top: -1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: left;
+  padding-left: 2rem;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+nav a {
+    text-decoration: none;
+}
+
+#logo {
+  height: 60px;
+  width: 60px;
+  /* float: left; */
+  /* margin-left: 0px; */
+}
+
+nav a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover,
+nav #active {
+  color: var(--accent-color);
+}
+
+/* === FOOTER === */
+footer {
+height: min-content;
+  background-color: var(--card-bg);
+  padding: 3rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  margin-bottom: -1rem;
+}
+
+footer a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--accent-color);
+}
