@@ -1,4 +1,12 @@
 /* === BASIC RESET === */
+@font-face {
+  font-family: Butterfly-Regular;
+  src: url(/fonts/ButterflyRegular-DOwE0.ttf);
+}
+@font-face {
+  font-family: Monarch;
+  src: url(/fonts/MonarchPersonalUseBold-PKLwd.ttf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -65,6 +73,71 @@ nav a {
 nav a:hover,
 nav #active {
   color: var(--accent-color);
+}
+
+h1 {
+  font-family: 'Monarch';
+  color: white;
+}
+
+#hero-banner {
+  /* background-color: black; */
+  /* background-image: url(/images/30730637487-monarch-danaus-plexippus.jpg); */
+  width: min-content;
+  margin: 0 auto;
+  /* height: ; */
+}
+#hero-banner img {
+  width: 800px;
+  /* opacity: 0.5; */
+  border-radius: 25px;
+}
+
+#mission-purpose {
+  width: 800px;
+  margin: 0 auto;
+}
+#mission-purpose h2 {
+  color: rgb(185, 102, 240);
+  border-bottom: solid 1px black;
+}
+
+#family-img {
+  width: 400px;
+  /* margin-bottom: -2.5rem; */
+}
+#cycle-img {
+  width: 400px;
+}
+.button {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: justify; */
+  border-radius: 25px;
+  width: fit-content;
+  padding: 0px 2rem;
+  height: 50px;
+  background-color: #edbe84;
+}
+.button a {
+  font-family: 'Monarch';
+  /* text-decoration: none; */
+  color: beige;
+  font-size: 1.5rem;
+}
+.button-container {
+  background-color: #edbe84;
+  width: 800px;
+  margin-top: -1.2rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  padding: 2rem;
+}
+.button-container p {
+  font-size: 1.2rem ;
 }
 
 /* === FOOTER === */
