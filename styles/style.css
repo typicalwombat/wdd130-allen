@@ -44,6 +44,9 @@ header {
   margin-top: -1rem;
 }
 
+#logo {
+  width: 40px;
+}
 nav {
   display: flex;
   justify-content: left;
@@ -79,6 +82,35 @@ h1 {
   font-family: 'Monarch';
   color: white;
 }
+#types h2 {
+  margin-top: 3rem;
+  color: rgb(185, 102, 240);
+}
+#mission-purpose h2 {
+  color: rgb(185, 102, 240);
+  border-bottom: solid 1px black;
+}
+h3 {
+  color: purple;
+}
+#types h3 {
+  margin-top: 1rem;
+}
+h4 {
+  color: rgb(49, 0, 128);
+}
+
+.split-family {
+  margin: 1.5rem auto;
+  border: black solid 1px;
+  width: 600px;
+}
+
+#split-page  {
+  margin: 4rem auto 2rem;
+  width: 1200px;
+  border: black solid 1px;
+}
 
 #hero-banner {
   /* background-color: black; */
@@ -97,14 +129,14 @@ h1 {
   width: 800px;
   margin: 0 auto;
 }
-#mission-purpose h2 {
-  color: rgb(185, 102, 240);
-  border-bottom: solid 1px black;
-}
+
 
 #family-img {
   width: 400px;
   /* margin-bottom: -2.5rem; */
+}
+.family {
+  width: 400px;
 }
 #cycle-img {
   width: 400px;
@@ -138,6 +170,43 @@ h1 {
 }
 .button-container p {
   font-size: 1.2rem ;
+}
+
+#types section {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.features {
+  width: 400px;
+  list-style: outside;
+  text-align: center;
+  margin: -1.5rem auto;
+}
+
+table {
+  margin: .5rem auto;
+  /* line-height: 2rem; */
+  border-collapse: collapse;
+}
+table th {
+  color: #fb9658;
+  font-size: 1.2rem;
+  background-color: #edbe84;
+}
+table tr td:first-child {
+  color: #f48def;
+  font-weight: bolder;
+}
+/* table tr {
+  border-bottom: solid black 1px;
+} */
+table tr td {
+  margin: 2rem
+}
+th, td {
+  border: 1px solid black; /* Sets a 1px solid black border for cells */
+  padding: 10px;
 }
 
 /* === FOOTER === */
